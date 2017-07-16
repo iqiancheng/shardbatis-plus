@@ -1,4 +1,4 @@
-package com.challions.dao.shardbatis;
+package me.qiancheng.works.shardbatis;
 
 /**
  * @author qian.cheng

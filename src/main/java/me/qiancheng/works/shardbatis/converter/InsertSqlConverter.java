@@ -1,4 +1,4 @@
-package com.challions.dao.shardbatis.converter;
+package me.qiancheng.works.shardbatis.converter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +17,10 @@ public class InsertSqlConverter implements SqlConverter {
     private Insert statement;
 
     private List<Table> tables = new ArrayList<Table>();
+
+    public InsertSqlConverter() {
+        super();
+    }
 
     public InsertSqlConverter(Insert statement) {
         this.statement = statement;

@@ -1,4 +1,4 @@
-package com.challions.dao.shardbatis.interceptor;
+package me.qiancheng.works.shardbatis.interceptor;
 
 import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.plugin.Invocation;

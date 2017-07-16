@@ -1,6 +1,6 @@
-package com.challions.dao.shardbatis.plugin;
+package me.qiancheng.works.shardbatis.plugin;
 
-import com.challions.dao.shardbatis.strategy.ShardStrategy;
+import me.qiancheng.works.shardbatis.strategy.ShardStrategy;
 
 import java.util.Map;
 

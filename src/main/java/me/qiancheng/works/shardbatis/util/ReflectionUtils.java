@@ -1,4 +1,4 @@
-package com.challions.dao.shardbatis.util;
+package me.qiancheng.works.shardbatis.util;
 
 import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;
