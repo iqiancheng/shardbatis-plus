@@ -1,4 +1,4 @@
-package me.qiancheng.works.shardbatis.strategy;
+package com.imarkerlab.shardbatis.strategy;
 
 /**
  * @author qian.cheng

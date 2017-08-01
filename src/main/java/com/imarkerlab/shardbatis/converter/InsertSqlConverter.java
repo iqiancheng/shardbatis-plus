@@ -1,11 +1,11 @@
-package me.qiancheng.works.shardbatis.converter;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.imarkerlab.shardbatis.converter;
 
 import net.sf.jsqlparser.schema.Table;
 import net.sf.jsqlparser.statement.insert.Insert;
 import net.sf.jsqlparser.util.deparser.StatementDeParser;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author qian.cheng

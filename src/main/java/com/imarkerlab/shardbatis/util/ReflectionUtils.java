@@ -1,4 +1,4 @@
-package me.qiancheng.works.shardbatis.util;
+package com.imarkerlab.shardbatis.util;
 
 import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;

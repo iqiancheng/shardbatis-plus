@@ -1,6 +1,6 @@
-package me.qiancheng.works.shardbatis.plugin;
+package com.imarkerlab.shardbatis.plugin;
 
-import me.qiancheng.works.shardbatis.strategy.ShardStrategy;
+import com.imarkerlab.shardbatis.strategy.ShardStrategy;
 
 import java.util.Map;
 

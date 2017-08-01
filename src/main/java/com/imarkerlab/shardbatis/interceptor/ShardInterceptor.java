@@ -1,4 +1,4 @@
-package me.qiancheng.works.shardbatis.interceptor;
+package com.imarkerlab.shardbatis.interceptor;
 
 import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.plugin.Invocation;
