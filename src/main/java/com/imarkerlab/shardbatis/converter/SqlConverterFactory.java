@@ -1,5 +1,6 @@
 package com.imarkerlab.shardbatis.converter;
 
+import lombok.extern.slf4j.Slf4j;
 import net.sf.jsqlparser.JSQLParserException;
 import net.sf.jsqlparser.parser.CCJSqlParserManager;
 import net.sf.jsqlparser.statement.Statement;
@@ -7,8 +8,6 @@ import net.sf.jsqlparser.statement.delete.Delete;
 import net.sf.jsqlparser.statement.insert.Insert;
 import net.sf.jsqlparser.statement.select.Select;
 import net.sf.jsqlparser.statement.update.Update;
-import org.apache.ibatis.logging.Log;
-import org.apache.ibatis.logging.LogFactory;
 
 import java.io.StringReader;
 import java.sql.SQLException;
@@ -19,8 +18,8 @@ import java.sql.SQLException;
  * @author qian.cheng
  * 
  */
+@Slf4j
 public class SqlConverterFactory {
-    private static final Log log = LogFactory.getLog(SqlConverterFactory.class);
 
 	private static SqlConverterFactory instance = new SqlConverterFactory();
 
@@ -59,8 +58,7 @@ public class SqlConverterFactory {
 				return delete;
 			}
 			else {
-				throw new SQLException(
-						"Unsupported Parser[" + statement.getClass().getName() + "]");
+				throw new SQLException( "Unsupported Parser[" + statement.getClass().getName() + "]");
 			}
 		}
 		catch (JSQLParserException e) {
